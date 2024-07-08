@@ -3,7 +3,10 @@ import Quiz from "./components/Quiz.jsx";
 
 function App() {
     return(
-        <Header />
+        <>
+            <Header />
+            <Quiz />
+        </>
     )
 }
 
